@@ -6,6 +6,8 @@ repositories {
 
 dependencies {
     providedCompile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+    providedCompile 'javax.ejb:javax.ejb-api:3.2'
+    providedCompile 'org.eclipse.persistence:javax.persistence:2.1.0'
 }
 
 task wrapper(type: Wrapper) {
